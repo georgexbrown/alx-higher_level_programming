@@ -3,5 +3,5 @@ def safe_print_integer(value):
     try:
         print(f"{int(value)}")
         return True
-    except:
+    except ValueError:
         return False
